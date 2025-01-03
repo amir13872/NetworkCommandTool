@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>NetworkCommandTool</AssemblyName>
+    <RootNamespace>NetworkCommandTool</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="5.0.0" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\ARPModule\ARPModule.csproj" />
+    <ProjectReference Include="..\src\PingModule\PingModule.csproj" />
+    <ProjectReference Include="..\src\NetshModule\NetshModule.csproj" />
+    <ProjectReference Include="..\src\NetBIOSModule\NetBIOSModule.csproj" />
+    <ProjectReference Include="..\src\Core\Core.csproj" />
+    <ProjectReference Include="..\src\UI\UI.csproj" />
+  </ItemGroup>
+
+</Project>
