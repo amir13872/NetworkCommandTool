@@ -32,7 +32,7 @@ The application features a clean and intuitive interface built using Windows For
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/NetworkCommandTool.git
+   git clone https://github.com/amir13872/NetworkCommandTool.git
    ```
 2. Navigate to the project directory:
    ```
