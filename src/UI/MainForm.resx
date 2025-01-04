@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="FormTitle" xml:space="preserve">
+    <value>Network Command Tool</value>
+  </data>
+  <data name="ARPButton" xml:space="preserve">
+    <value>View ARP Table</value>
+  </data>
+  <data name="PingButton" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="NetshButton" xml:space="preserve">
+    <value>View Network Config</value>
+  </data>
+  <data name="NetBIOSButton" xml:space="preserve">
+    <value>Scan NetBIOS</value>
+  </data>
+  <data name="StatusLabel" xml:space="preserve">
+    <value>Status: Ready</value>
+  </data>
+  <data name="ResultsLabel" xml:space="preserve">
+    <value>Results:</value>
+  </data>
+</root>
